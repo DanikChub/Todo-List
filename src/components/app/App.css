@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.all {
+  text-align: center;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 200;
+  color: #000;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.491);
+}
+
+/* .active span:nth-child(1) {
+  color: rgba(0, 0, 0, 0.484);
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.1);  
+  animation: titleAnim .5s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;  
+}
+
+.active span:nth-child(2) {
+  color: rgba(0, 0, 0, 0.484);
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.1);
+  animation: titleAnim .5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.active span:nth-child(3) {
+  color: rgba(0, 0, 0, 0.484);
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.1);
+  animation: titleAnim .5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.active span:nth-child(4) {
+  color: rgba(0, 0, 0, 0.484);
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.1);
+  animation: titleAnim .5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.active span:nth-child(5) {
+  color: rgba(0, 0, 0, 0.484);
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.1);
+  animation: titleAnim .5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+} */
+
+@keyframes titleAnim {
+  0% {
+    color: rgba(0, 0, 0, 0.484);
+    text-shadow: 1px 1px 3px rgba(255,255,255,0.1);
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.504);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.815);
+  }
+
+}
+
+.blocks {
+  width: 600px;
+  /* height: 450px; */
+  background-color: rgba(202, 202, 202, 0.6);
+  box-shadow: inset 2px 2px 3px rgba(131, 131, 131, 0.491),
+              inset 2px 2px 3px rgba(131, 131, 131, 0.491);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  flex-direction: column;
+  transition: .5s ease-in-out;
+}
+
+.subTitle {
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgb(202, 202, 202);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+
+
+
+

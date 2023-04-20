@@ -1,0 +1,39 @@
+.setTodo {
+
+    width: 598px;
+    height: 71px;
+    border: 0;
+    border-left: 1px solid rgba(131, 131, 131, 0.491);
+    border-top: 1px solid rgba(131, 131, 131, 0.491);
+    border-right: 1px solid rgba(131, 131, 131, 0.491);
+    border-radius: 0;
+    font-size: 30px;
+    color: rgb(57, 57, 57);
+    text-shadow: 0px 1px 3px rgba(14, 14, 14, 0.491);
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .setTodo::placeholder {
+    padding-left: 10px;
+    text-align: center;
+  }
+  
+  .setTodo:focus {
+    outline: 0;
+  }
+
+
+
+  span {
+    position: relative;
+  }
+
+  span:hover .hint {
+    opacity: 1;
+  }
+
+  span .setTodo:focus .hint {
+    opacity: 0;
+  }
+  
